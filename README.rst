@@ -32,12 +32,16 @@ Test the service::
 Deployment (Google Cloud)
 -------------------------
 
+To deploy to Google Cloud you need to create a project or use an existing project.
+You can manage your project via https://console.cloud.google.com. You need to
+enable the Google Container Registry and Google Compute Engine to proceed.
+
 If you haven't build a docker image yet, do it now::
 
     $ docker build -t keras-inception-service .
 
 
-Tag the image for Google Container Registry (replace PROJECT_ID with your project id)::
+Tag the image for Google Container Registry (N.B.: replace PROJECT_ID with your project id)::
 
     $ docker tag keras-inception-service gcr.io/PROJECT_ID/keras-inception-service
 
