@@ -21,7 +21,7 @@ Option 1) using virtualenv::
 Option 2) using docker::
 
     $ docker build -t keras-inception-service .
-    $ docker run --rm -p 5000:5000 keras-inception-service
+    $ docker run -it --rm -d -p 5000:80 keras-inception-service
 
 
 Test the service::
