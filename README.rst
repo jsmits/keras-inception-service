@@ -4,7 +4,7 @@ keras-inception-service
 This service predicts the content of an image you post to its endpoint.
 The underlying prediction model is Inception V3.
 
-Source: https://medium.com/google-cloud/keras-inception-v3-on-google-compute-engine-a54918b0058
+Source: https://blog.murraycole.com/2017/01/22/keras-inception-v3-on-google-compute-engine/
 
 
 Get started
