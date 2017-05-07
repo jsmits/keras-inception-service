@@ -37,7 +37,7 @@ If you haven't build a docker image yet, do it now::
 
 Tag the image for Google Container Registry (replace PROJECT_ID with your project id)::
 
-    $ docker tag predict-service gcr.io/PROJECT_ID/keras-inception-service
+    $ docker tag keras-inception-service gcr.io/PROJECT_ID/keras-inception-service
 
 
 Push the image to your project's container registry::
@@ -76,4 +76,4 @@ On your host, change the ``test_requests.sh`` script to point to the compute ins
     $ ./test_requests.sh
 
 
-Now, you should see a response from deployed image.
+Now, you should see a response from the deployed image.
