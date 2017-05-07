@@ -78,4 +78,4 @@ On your host, change the ``test_requests.sh`` script to point to the compute ins
     $ ./test_requests.sh
 
 
-Now, you should see a response from the deployed image.
+Now, you should see the predicted results as served by the deployed image.
